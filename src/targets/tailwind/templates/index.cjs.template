@@ -9,9 +9,9 @@ module.exports = {
 
   {{#palette}}
   {{colorName}}: {
-    {{#shades}}	
-    {{shadeName}}: "{{{oklchWithAlpha}}}",
-    {{/shades}}
+    {{#light}}	
+    {{shadeName}}: "var(--{{colorName}}-{{shadeName}})",
+    {{/light}}
   },
   {{/palette}}
 };

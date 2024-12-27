@@ -1,9 +1,16 @@
 export default {
   {{#palette}}
   {{colorName}}: {
-    {{#shades}}	
-    {{shadeName}}: "{{oklch}}",
-    {{/shades}}
+    dark: {
+      {{#dark}}	
+      shade{{shadeName}}: "{{oklch}}",
+      {{/dark}}
+    },
+    light: {
+      {{#light}}	
+      shade{{shadeName}}: "{{oklch}}",
+      {{/light}}
+    }
   },
   {{/palette}}
 };

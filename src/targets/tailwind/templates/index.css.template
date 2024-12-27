@@ -5,9 +5,8 @@
   --color-black: #000;
 
   {{#palette}}
-  {{#shades}}
-  --color-{{colorName}}-{{shadeName}}: {{oklch}};
-  {{/shades}}
-
+  {{#light}}
+  --color-{{colorName}}-{{shadeName}}: var(--{{colorName}}-{{shadeName}});
+  {{/light}}
   {{/palette}}
 }

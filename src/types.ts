@@ -1,10 +1,15 @@
+export type ColorMode = 'light' | 'dark';
+
+export interface Shade {
+  shadeName: string;
+  oklch: string;
+  srgb: string;
+}
+
 export type PaletteWithFallback = {
   colorName: string;
-  shades: {
-    shadeName: string;
-    oklch: string;
-    srgbFallback: string;
-  }[];
+  dark: Shade[];
+  light: Shade[];
 }[];
 
 export interface BuildTarget {

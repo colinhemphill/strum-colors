@@ -1,9 +1,16 @@
 declare namespace _default {
   {{#palette}}
   let {{colorName}}: {
-    {{#shades}}	
-    {{shadeName}}: string;
-    {{/shades}}
+    dark: {
+      {{#dark}}	
+      shade{{shadeName}}: string;
+      {{/dark}}
+    },
+    light: {
+      {{#light}}	
+      shade{{shadeName}}: string;
+      {{/light}}
+    }
   };
   {{/palette}}
 }

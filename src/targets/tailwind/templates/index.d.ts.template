@@ -7,9 +7,9 @@ declare namespace _default {
 
   {{#palette}}
   let {{colorName}}: {
-    {{#shades}}	
+    {{#light}}	
     {{shadeName}}: string;
-    {{/shades}}
+    {{/light}}
   };
   {{/palette}}
 }

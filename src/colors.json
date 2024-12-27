@@ -1,123 +1,98 @@
 {
-  "Amber/1": {
-    "$contrast": -105.23658976658778,
-    "$contrastBg": "black",
-    "$description": "oklch(98.83% 0.005 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#98.828125,0.004687500000000001,66.66666666666666,100",
-    "$oklch": "oklch(0.988281 0.0046875 66.6667)",
-    "$srgbFallback": "#fdfbf8",
-    "$type": "color",
-    "$value": "#fdfbf8"
+  "Gray/Dark/01": {
+    "$oklch": "oklch(17.76% 0 0)",
+    "$srgb": "#111111"
   },
-  "Amber/10": {
-    "$contrast": 100.08102313561416,
-    "$contrastBg": "white",
-    "$description": "oklch(30.27% 0.066 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#30.2734375,0.06562500000000002,66.66666666666666,100",
-    "$oklch": "oklch(0.302734 0.065625 66.6667)",
-    "$srgbFallback": "#442701",
-    "$type": "color",
-    "$value": "#402809"
+  "Gray/Dark/02": {
+    "$oklch": "oklch(21.34% 0 0)",
+    "$srgb": "#191919"
   },
-  "Amber/11": {
-    "$contrast": 105.02376430491844,
-    "$contrastBg": "white",
-    "$description": "oklch(19.14% 0.041 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#19.140625,0.04062500000000001,66.66666666666666,100",
-    "$oklch": "oklch(0.191406 0.040625 66.6667)",
-    "$srgbFallback": "#201001",
-    "$type": "color",
-    "$value": "#1e1103"
+  "Gray/Dark/03": {
+    "$oklch": "oklch(25.2% 0 0)",
+    "$srgb": "#222222"
   },
-  "Amber/2": {
-    "$contrast": -100.41924249202958,
-    "$contrastBg": "black",
-    "$description": "oklch(96.68% 0.017 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#96.6796875,0.0171875,66.66666666666666,100",
-    "$oklch": "oklch(0.966797 0.0171875 66.6667)",
-    "$srgbFallback": "#fcf2e8",
-    "$type": "color",
-    "$value": "#fbf2e9"
+  "Gray/Dark/04": {
+    "$oklch": "oklch(28.5% 0 0)",
+    "$srgb": "#2a2a2a"
   },
-  "Amber/3": {
-    "$contrast": -90.250842899355,
-    "$contrastBg": "black",
-    "$description": "oklch(91.99% 0.042 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#91.9921875,0.04218750000000001,66.66666666666666,100",
-    "$oklch": "oklch(0.919922 0.0421875 66.6667)",
-    "$srgbFallback": "#f8e0c8",
-    "$type": "color",
-    "$value": "#f4e1ca"
+  "Gray/Dark/05": {
+    "$oklch": "oklch(31.32% 0 0)",
+    "$srgb": "#313131"
   },
-  "Amber/4": {
-    "$contrast": -77.36665444193929,
-    "$contrastBg": "black",
-    "$description": "oklch(85.74% 0.078 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#85.7421875,0.07812500000000001,66.66666666666666,100",
-    "$oklch": "oklch(0.857422 0.078125 66.6667)",
-    "$srgbFallback": "#f4c79a",
-    "$type": "color",
-    "$value": "#ecc8a0"
+  "Gray/Dark/06": {
+    "$oklch": "oklch(34.85% 0 0)",
+    "$srgb": "#3a3a3a"
   },
-  "Amber/5": {
-    "$contrast": -65.30082805452987,
-    "$contrastBg": "black",
-    "$description": "oklch(79.49% 0.114 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#79.4921875,0.11406250000000002,66.66666666666666,100",
-    "$oklch": "oklch(0.794922 0.114063 66.6667)",
-    "$srgbFallback": "#eead69",
-    "$type": "color",
-    "$value": "#e4b073"
+  "Gray/Dark/07": {
+    "$oklch": "oklch(40.17% 0 0)",
+    "$srgb": "#484848"
   },
-  "Amber/6": {
-    "$contrast": -54.07941708078366,
-    "$contrastBg": "black",
-    "$description": "oklch(73.24% 0.152 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#73.2421875,0.15156250000000002,66.66666666666666,100",
-    "$oklch": "oklch(0.732422 0.151562 66.6667)",
-    "$srgbFallback": "#e79325",
-    "$type": "color",
-    "$value": "#db9640"
+  "Gray/Dark/08": {
+    "$oklch": "oklch(48.91% 0 0)",
+    "$srgb": "#606060"
   },
-  "Amber/7": {
-    "$contrast": 65.02944917472537,
-    "$contrastBg": "white",
-    "$description": "oklch(61.91% 0.136 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#61.9140625,0.13593750000000002,66.66666666666666,100",
-    "$oklch": "oklch(0.619141 0.135937 66.6667)",
-    "$srgbFallback": "#bb7305",
-    "$type": "color",
-    "$value": "#b17629"
+  "Gray/Dark/09": {
+    "$oklch": "oklch(53.82% 0 0)",
+    "$srgb": "#6e6e6e"
   },
-  "Amber/8": {
-    "$contrast": 77.21132087691367,
-    "$contrastBg": "white",
-    "$description": "oklch(52.73% 0.116 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#52.734375,0.11562500000000003,66.66666666666666,100",
+  "Gray/Dark/10": {
+    "$oklch": "oklch(58.29% 0 0)",
+    "$srgb": "#7b7b7b"
+  },
+  "Gray/Dark/11": {
+    "$oklch": "oklch(76.99% 0 0)",
+    "$srgb": "#b4b4b4"
+  },
+  "Gray/Dark/12": {
+    "$oklch": "oklch(94.91% 0 0)",
+    "$srgb": "#eeeeee"
+  },
+  "Gray/Light/01": {
+    "$oklch": "oklch(99.11% 0 0)",
+    "$srgb": "#fcfcfc"
+  },
+  "Gray/Light/02": {
+    "$oklch": "oklch(98.21% 0 0)",
+    "$srgb": "#f9f9f9"
+  },
+  "Gray/Light/03": {
+    "$oklch": "oklch(95.51% 0 0)",
+    "$srgb": "#f0f0f0"
+  },
+  "Gray/Light/04": {
+    "$oklch": "oklch(93.1% 0 0)",
+    "$srgb": "#e8e8e8"
+  },
+  "Gray/Light/05": {
+    "$oklch": "oklch(90.67% 0 0)",
+    "$srgb": "#e0e0e0"
+  },
+  "Gray/Light/06": {
+    "$oklch": "oklch(88.53% 0 0)",
+    "$srgb": "#d9d9d9"
+  },
+  "Gray/Light/07": {
+    "$oklch": "oklch(85.14% 0 0)",
+    "$srgb": "#cecece"
+  },
+  "Gray/Light/08": {
     "$oklch": "oklch(0.527344 0.115625 66.6667)",
-    "$srgbFallback": "#975b03",
-    "$type": "color",
-    "$value": "#8e5e1f"
+    "$srgb": "#bbbbbb"
   },
-  "Amber/9": {
-    "$contrast": 90.11978638444505,
-    "$contrastBg": "white",
-    "$description": "oklch(41.41% 0.091 66.67)",
-    "$isP3": false,
-    "$link": "https://oklch.com/#41.40625,0.09062500000000001,66.66666666666666,100",
-    "$oklch": "oklch(0.414063 0.090625 66.6667)",
-    "$srgbFallback": "#6c4002",
-    "$type": "color",
-    "$value": "#664214"
+  "Gray/Light/09": {
+    "$oklch": "oklch(79.21% 0 0)",
+    "$srgb": "#8d8d8d"
+  },
+  "Gray/Light/10": {
+    "$oklch": "oklch(61% 0 0)",
+    "$srgb": "#838383"
+  },
+  "Gray/Light/11": {
+    "$oklch": "oklch(50.32% 0 0)",
+    "$srgb": "#646464"
+  },
+  "Gray/Light/12": {
+    "$oklch": "oklch(24.35% 0 0)",
+    "$srgb": "#202020"
   }
 }

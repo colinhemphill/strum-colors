@@ -1,15 +1,26 @@
-:root {
-  {{#shades}}	
-  --{{colorName}}-{{shadeName}}: {{srgbFallback}};
-  {{/shades}}
+:root, .light, .light-theme {
+  {{#light}}
+  --{{colorName}}-{{shadeName}}: {{srgb}};
+  {{/light}}
+}
+
+.dark, .dark-theme {
+  {{#dark}}
+  --{{colorName}}-{{shadeName}}: {{srgb}};
+  {{/dark}}
 }
 
 @supports (color: oklch(0% 0 0)) {
   @media (color-gamut: p3) {
-    :root {
-      {{#shades}}	
+    :root, .light, .light-theme {
+      {{#light}}	
       --{{colorName}}-{{shadeName}}: {{oklch}};
-      {{/shades}}
+      {{/light}}
+    }
+    .dark, .dark-theme {
+      {{#dark}}	
+      --{{colorName}}-{{shadeName}}: {{oklch}};
+      {{/dark}}
     }
   }
 }
