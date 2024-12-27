@@ -1,0 +1,59 @@
+{
+  "name": "strum-colors",
+  "version": "0.1.0",
+  "devDependencies": {
+    "@eslint/js": "9.17.0",
+    "@types/mustache": "4.2.5",
+    "bun-types": "1.1.42",
+    "eslint": "9.17.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-unicorn": "56.0.1",
+    "mustache": "4.2.0",
+    "prettier": "3.4.2",
+    "prettier-plugin-sort-json": "4.0.0",
+    "publint": "0.2.12",
+    "syncpack": "13.0.0",
+    "typescript-eslint": "8.18.2",
+    "valibot": "1.0.0-beta.9"
+  },
+  "exports": {
+    "./tailwind": {
+      "types": "./dist/tailwind/index.d.ts",
+      "import": "./dist/tailwind/index.js",
+      "require": "./dist/tailwind/index.cjs",
+      "default": "./dist/tailwind/index.js"
+    },
+    "./tailwind.css": "./dist/tailwind/index.css",
+    "./base": {
+      "types": "./dist/base/index.d.ts",
+      "import": "./dist/base/index.js",
+      "require": "./dist/base/index.cjs",
+      "default": "./dist/base/index.js"
+    },
+    "./css/*": "./dist/css/*"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "colors",
+    "palette",
+    "radix",
+    "tailwind"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "colinhemphill/strum-colors.git",
+  "scripts": {
+    "build": "bun run src/build.ts",
+    "format": "prettier --write 'src/*.{json,js,ts,tsx}' && syncpack format",
+    "lint": "eslint --fix && syncpack format && syncpack lint",
+    "prepublishOnly": "npm run build",
+    "sync": "syncpack fix-mismatches",
+    "update": "syncpack update"
+  },
+  "sideEffects": false,
+  "type": "module"
+}
