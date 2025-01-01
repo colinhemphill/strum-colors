@@ -1,17 +1,49 @@
-declare namespace _default {
+declare namespace oklch {
   {{#palette}}
-  let {{colorName}}: {
+  let {{colorKey}}: {
+    category: string,
+    colorName: string;
     dark: {
       {{#dark}}	
-      shade{{shadeName}}: string;
+      {{shadeName}}: {
+        color: string,
+        foreground: string,
+      },
       {{/dark}}
     },
     light: {
       {{#light}}	
-      shade{{shadeName}}: string;
+      {{shadeName}}: {
+        color: string,
+        foreground: string,
+      },
       {{/light}}
     }
   };
   {{/palette}}
 }
-export default _default;
+declare namespace rgb {
+  {{#palette}}
+  let {{colorKey}}: {
+    category: string;
+    colorName: string;
+    dark: {
+      {{#dark}}	
+      {{shadeName}}: {
+        color: string,
+        foreground: string,
+      },
+      {{/dark}}
+    },
+    light: {
+      {{#light}}	
+      {{shadeName}}: {
+        color: string,
+        foreground: string,
+      },
+      {{/light}}
+    }
+  };
+  {{/palette}}
+}
+export { oklch, rgb };

@@ -1,36 +1,28 @@
-export type ColorMode = 'light' | 'dark';
+import { ColorCategory, ColorName } from '@src/utils/types-public';
 
 export interface Shade {
-  shadeName: string;
+  oklchForeground: string;
   oklch: string;
-  srgb: string;
+  shadeName: string;
+  rgb: string;
+  rgbForeground: string;
 }
 
-export type PaletteWithFallback = {
+export type Palette = {
+  category: ColorCategory;
+  colorKey: ColorName;
   colorName: string;
   dark: Shade[];
   light: Shade[];
 }[];
 
-export interface BuildTarget {
-  /** relative dir in addition to outdir, to keep at root outdir set to '.' */
+interface BuildTarget {
   dir: string;
-  /** individual output files */
   outputs: {
-    /** absolute path to template */
-    templatePath: string;
-    /**
-     * vars passed to template
-     * if not specified will include the whole palette
-     * take any value compatible with Mustache.js, including
-     * JSON-serializable objects and functions.
-     */
-    templateVars?: Record<string, unknown>;
-    /** filename to write rendered template to */
     file: string;
+    templatePath: string;
+    templateVars?: Record<string, unknown>;
   }[];
 }
 
-export type BuildConfig =
-  | BuildTarget
-  | ((palette: PaletteWithFallback) => BuildTarget);
+export type BuildConfig = BuildTarget | ((palette: Palette) => BuildTarget);

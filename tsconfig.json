@@ -15,9 +15,6 @@
     "moduleResolution": "bundler",
     "noEmit": true,
     "paths": {
-      "@scripts/*": [
-        "./scripts/*"
-      ],
       "@src/*": [
         "./src/*"
       ]

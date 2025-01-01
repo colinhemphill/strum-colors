@@ -1,0 +1,153 @@
+[
+  {
+    "category": "accent",
+    "hue": 250,
+    "name": "Blue"
+  },
+  {
+    "category": "accent",
+    "hue": 0,
+    "name": "Crimson"
+  },
+  {
+    "category": "accent",
+    "hue": 265,
+    "name": "Indigo"
+  },
+  {
+    "category": "accent",
+    "hue": 280,
+    "name": "Iris"
+  },
+  {
+    "category": "accent",
+    "hue": 350,
+    "name": "Pink"
+  },
+  {
+    "category": "accent",
+    "hue": 320,
+    "name": "Plum"
+  },
+  {
+    "category": "accent",
+    "hue": 305,
+    "name": "Purple"
+  },
+  {
+    "category": "accent",
+    "hue": 20,
+    "name": "Red"
+  },
+  {
+    "category": "accent",
+    "hue": 10,
+    "name": "Ruby"
+  },
+  {
+    "category": "accent",
+    "hue": 30,
+    "name": "Tomato"
+  },
+  {
+    "category": "accent",
+    "hue": 290,
+    "name": "Violet"
+  },
+  {
+    "category": "accent",
+    "hue": 180,
+    "name": "Teal"
+  },
+  {
+    "category": "accent",
+    "hue": 215,
+    "name": "Cyan"
+  },
+  {
+    "category": "accent",
+    "hue": 170,
+    "name": "Jade"
+  },
+  {
+    "category": "accent",
+    "hue": 160,
+    "name": "Green"
+  },
+  {
+    "category": "accent",
+    "hue": 150,
+    "name": "Grass"
+  },
+  {
+    "category": "accent",
+    "hue": 80,
+    "name": "Gold"
+  },
+  {
+    "category": "accentBright",
+    "hue": 45,
+    "name": "Brown"
+  },
+  {
+    "category": "accent",
+    "hue": 40,
+    "name": "Orange"
+  },
+  {
+    "category": "accent",
+    "hue": 90,
+    "name": "Amber"
+  },
+  {
+    "category": "accentBright",
+    "hue": 95,
+    "name": "Yellow"
+  },
+  {
+    "category": "accentBright",
+    "hue": 125,
+    "name": "Lime"
+  },
+  {
+    "category": "accentBright",
+    "hue": 175,
+    "name": "Mint"
+  },
+  {
+    "category": "accentBright",
+    "hue": 220,
+    "name": "Sky"
+  },
+  {
+    "category": "neutral",
+    "hue": 250,
+    "name": "Slate"
+  },
+  {
+    "category": "neutral",
+    "hue": 305,
+    "name": "Mauve"
+  },
+  {
+    "category": "neutral",
+    "hue": 160,
+    "name": "Sage"
+  },
+  {
+    "category": "neutral",
+    "hue": 125,
+    "name": "Olive"
+  },
+  {
+    "category": "neutral",
+    "hue": 85,
+    "name": "Sand"
+  },
+  {
+    "category": "neutral",
+    "hue": 360,
+    "name": "Gray",
+    "saturation": 0.0
+  }
+]

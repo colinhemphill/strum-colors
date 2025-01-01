@@ -1,6 +1,5 @@
+import { defineBuildConfig } from '@src/builder';
 import path from 'node:path';
-import { defineBuildConfig } from '../../builder.ts';
-import { PaletteWithFallback } from '../../types.ts';
 
 export default defineBuildConfig((palette) => ({
   dir: 'tailwind',
@@ -19,11 +18,6 @@ export default defineBuildConfig((palette) => ({
       ),
       templateVars: {
         palette,
-        oklchWithAlpha: function (): string {
-          const shade =
-            this as unknown as PaletteWithFallback[number]['shades'][number];
-          return shade.oklch.slice(0, -1) + ' / <alpha-value>)';
-        },
       },
       file,
     })),

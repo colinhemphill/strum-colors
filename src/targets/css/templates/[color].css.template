@@ -1,12 +1,14 @@
 :root, .light, .light-theme {
   {{#light}}
-  --{{colorName}}-{{shadeName}}: {{srgb}};
+  --{{colorKey}}-{{shadeName}}: {{rgb}};
+  --{{colorKey}}-{{shadeName}}-foreground: {{rgbForeground}};
   {{/light}}
 }
 
 .dark, .dark-theme {
   {{#dark}}
-  --{{colorName}}-{{shadeName}}: {{srgb}};
+  --{{colorKey}}-{{shadeName}}: {{rgb}};
+  --{{colorKey}}-{{shadeName}}-foreground: {{rgbForeground}};
   {{/dark}}
 }
 
@@ -14,12 +16,14 @@
   @media (color-gamut: p3) {
     :root, .light, .light-theme {
       {{#light}}	
-      --{{colorName}}-{{shadeName}}: {{oklch}};
+      --{{colorKey}}-{{shadeName}}: {{oklch}};
+      --{{colorKey}}-{{shadeName}}-foreground: {{oklchForeground}};
       {{/light}}
     }
     .dark, .dark-theme {
       {{#dark}}	
-      --{{colorName}}-{{shadeName}}: {{oklch}};
+      --{{colorKey}}-{{shadeName}}: {{oklch}};
+      --{{colorKey}}-{{shadeName}}-foreground: {{oklchForeground}};
       {{/dark}}
     }
   }

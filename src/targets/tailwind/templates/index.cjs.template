@@ -8,9 +8,10 @@ module.exports = {
   white: "#fff",
 
   {{#palette}}
-  {{colorName}}: {
+  {{colorKey}}: {
     {{#light}}	
-    {{shadeName}}: "var(--{{colorName}}-{{shadeName}})",
+    {{shadeName}}: "var(--{{colorKey}}-{{shadeName}})",
+    '{{shadeName}}-foreground': "var(--{{colorKey}}-{{shadeName}}-foreground)",
     {{/light}}
   },
   {{/palette}}

@@ -1,0 +1,1 @@
+export { aliasColors } from './alias';

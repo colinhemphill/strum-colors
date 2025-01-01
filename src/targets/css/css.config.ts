@@ -17,7 +17,7 @@ export default defineBuildConfig((colors) => ({
         'templates/[color].css.template',
       ),
       templateVars: { ...color },
-      file: `${color.colorName}.css`,
+      file: `${color.colorKey}.css`,
     })),
   ],
 }));

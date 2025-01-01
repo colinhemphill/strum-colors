@@ -1,3 +1,5 @@
+@import '../css/index.css';
+
 @theme {
   --color-*: initial;
 
@@ -6,7 +8,8 @@
 
   {{#palette}}
   {{#light}}
-  --color-{{colorName}}-{{shadeName}}: var(--{{colorName}}-{{shadeName}});
+  --color-{{colorKey}}-{{shadeName}}: var(--{{colorKey}}-{{shadeName}});
+  --color-{{colorKey}}-{{shadeName}}-foreground: var(--{{colorKey}}-{{shadeName}}-foreground);
   {{/light}}
   {{/palette}}
 }

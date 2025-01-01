@@ -1,98 +1,938 @@
 {
-  "Gray/Dark/01": {
-    "$oklch": "oklch(17.76% 0 0)",
-    "$srgb": "#111111"
+  "Blue/Dark/00": {
+    "$oklch": "oklch(14% 0.02 252)"
   },
-  "Gray/Dark/02": {
-    "$oklch": "oklch(21.34% 0 0)",
-    "$srgb": "#191919"
+  "Blue/Dark/01": {
+    "$oklch": "oklch(18% 0.02 252)"
   },
-  "Gray/Dark/03": {
-    "$oklch": "oklch(25.2% 0 0)",
-    "$srgb": "#222222"
+  "Blue/Dark/02": {
+    "$oklch": "oklch(20% 0.03 252)"
   },
-  "Gray/Dark/04": {
-    "$oklch": "oklch(28.5% 0 0)",
-    "$srgb": "#2a2a2a"
+  "Blue/Dark/03": {
+    "$oklch": "oklch(25% 0.04 252)"
   },
-  "Gray/Dark/05": {
-    "$oklch": "oklch(31.32% 0 0)",
-    "$srgb": "#313131"
+  "Blue/Dark/04": {
+    "$oklch": "oklch(30% 0.06 252)"
   },
-  "Gray/Dark/06": {
-    "$oklch": "oklch(34.85% 0 0)",
-    "$srgb": "#3a3a3a"
+  "Blue/Dark/05": {
+    "$oklch": "oklch(35% 0.10 252)"
   },
-  "Gray/Dark/07": {
-    "$oklch": "oklch(40.17% 0 0)",
-    "$srgb": "#484848"
+  "Blue/Dark/06": {
+    "$oklch": "oklch(40% 0.12 252)"
   },
-  "Gray/Dark/08": {
-    "$oklch": "oklch(48.91% 0 0)",
-    "$srgb": "#606060"
+  "Blue/Dark/07": {
+    "$oklch": "oklch(45% 0.14 252)"
   },
-  "Gray/Dark/09": {
-    "$oklch": "oklch(53.82% 0 0)",
-    "$srgb": "#6e6e6e"
+  "Blue/Dark/08": {
+    "$oklch": "oklch(55% 0.16 252)"
   },
-  "Gray/Dark/10": {
-    "$oklch": "oklch(58.29% 0 0)",
-    "$srgb": "#7b7b7b"
+  "Blue/Dark/09": {
+    "$oklch": "oklch(65% 0.18 252)"
   },
-  "Gray/Dark/11": {
-    "$oklch": "oklch(76.99% 0 0)",
-    "$srgb": "#b4b4b4"
+  "Blue/Dark/10": {
+    "$oklch": "oklch(70% 0.16 252)"
   },
-  "Gray/Dark/12": {
-    "$oklch": "oklch(94.91% 0 0)",
-    "$srgb": "#eeeeee"
+  "Blue/Dark/11": {
+    "$oklch": "oklch(75% 0.14 252)"
   },
-  "Gray/Light/01": {
-    "$oklch": "oklch(99.11% 0 0)",
-    "$srgb": "#fcfcfc"
+  "Blue/Dark/12": {
+    "$oklch": "oklch(90% 0.05 252)"
   },
-  "Gray/Light/02": {
-    "$oklch": "oklch(98.21% 0 0)",
-    "$srgb": "#f9f9f9"
+  "Blue/Light/00": {
+    "$oklch": "oklch(99% 0.01 252)"
   },
-  "Gray/Light/03": {
-    "$oklch": "oklch(95.51% 0 0)",
-    "$srgb": "#f0f0f0"
+  "Blue/Light/01": {
+    "$oklch": "oklch(99% 0.01 252)"
   },
-  "Gray/Light/04": {
-    "$oklch": "oklch(93.1% 0 0)",
-    "$srgb": "#e8e8e8"
+  "Blue/Light/02": {
+    "$oklch": "oklch(98% 0.014 252)"
   },
-  "Gray/Light/05": {
-    "$oklch": "oklch(90.67% 0 0)",
-    "$srgb": "#e0e0e0"
+  "Blue/Light/03": {
+    "$oklch": "oklch(96% 0.02 252)"
   },
-  "Gray/Light/06": {
-    "$oklch": "oklch(88.53% 0 0)",
-    "$srgb": "#d9d9d9"
+  "Blue/Light/04": {
+    "$oklch": "oklch(94% 0.04 252)"
   },
-  "Gray/Light/07": {
-    "$oklch": "oklch(85.14% 0 0)",
-    "$srgb": "#cecece"
+  "Blue/Light/05": {
+    "$oklch": "oklch(90% 0.06 252)"
   },
-  "Gray/Light/08": {
-    "$oklch": "oklch(0.527344 0.115625 66.6667)",
-    "$srgb": "#bbbbbb"
+  "Blue/Light/06": {
+    "$oklch": "oklch(85% 0.08 252)"
   },
-  "Gray/Light/09": {
-    "$oklch": "oklch(79.21% 0 0)",
-    "$srgb": "#8d8d8d"
+  "Blue/Light/07": {
+    "$oklch": "oklch(80% 0.1 252)"
   },
-  "Gray/Light/10": {
-    "$oklch": "oklch(61% 0 0)",
-    "$srgb": "#838383"
+  "Blue/Light/08": {
+    "$oklch": "oklch(75% 0.12 252)"
   },
-  "Gray/Light/11": {
-    "$oklch": "oklch(50.32% 0 0)",
-    "$srgb": "#646464"
+  "Blue/Light/09": {
+    "$oklch": "oklch(65% 0.2 252)"
   },
-  "Gray/Light/12": {
-    "$oklch": "oklch(24.35% 0 0)",
-    "$srgb": "#202020"
+  "Blue/Light/10": {
+    "$oklch": "oklch(60% 0.18 252)"
+  },
+  "Blue/Light/11": {
+    "$oklch": "oklch(55% 0.16 252)"
+  },
+  "Blue/Light/12": {
+    "$oklch": "oklch(30% 0.1 252)"
+  },
+  "Crimson/Dark/00": {
+    "$oklch": "oklch(14% 0.02 1)"
+  },
+  "Crimson/Dark/01": {
+    "$oklch": "oklch(18% 0.02 1)"
+  },
+  "Crimson/Dark/02": {
+    "$oklch": "oklch(20% 0.03 1)"
+  },
+  "Crimson/Dark/03": {
+    "$oklch": "oklch(25% 0.04 1)"
+  },
+  "Crimson/Dark/04": {
+    "$oklch": "oklch(30% 0.06 1)"
+  },
+  "Crimson/Dark/05": {
+    "$oklch": "oklch(35% 0.10 1)"
+  },
+  "Crimson/Dark/06": {
+    "$oklch": "oklch(40% 0.12 1)"
+  },
+  "Crimson/Dark/07": {
+    "$oklch": "oklch(45% 0.14 1)"
+  },
+  "Crimson/Dark/08": {
+    "$oklch": "oklch(55% 0.16 1)"
+  },
+  "Crimson/Dark/09": {
+    "$oklch": "oklch(65% 0.18 1)"
+  },
+  "Crimson/Dark/10": {
+    "$oklch": "oklch(70% 0.16 1)"
+  },
+  "Crimson/Dark/11": {
+    "$oklch": "oklch(75% 0.14 1)"
+  },
+  "Crimson/Dark/12": {
+    "$oklch": "oklch(90% 0.05 1)"
+  },
+  "Crimson/Light/00": {
+    "$oklch": "oklch(99% 0.01 1)"
+  },
+  "Crimson/Light/01": {
+    "$oklch": "oklch(99% 0.01 1)"
+  },
+  "Crimson/Light/02": {
+    "$oklch": "oklch(98% 0.014 1)"
+  },
+  "Crimson/Light/03": {
+    "$oklch": "oklch(96% 0.02 1)"
+  },
+  "Crimson/Light/04": {
+    "$oklch": "oklch(94% 0.04 1)"
+  },
+  "Crimson/Light/05": {
+    "$oklch": "oklch(90% 0.06 1)"
+  },
+  "Crimson/Light/06": {
+    "$oklch": "oklch(85% 0.08 1)"
+  },
+  "Crimson/Light/07": {
+    "$oklch": "oklch(80% 0.1 1)"
+  },
+  "Crimson/Light/08": {
+    "$oklch": "oklch(75% 0.12 1)"
+  },
+  "Crimson/Light/09": {
+    "$oklch": "oklch(65% 0.2 1)"
+  },
+  "Crimson/Light/10": {
+    "$oklch": "oklch(60% 0.18 1)"
+  },
+  "Crimson/Light/11": {
+    "$oklch": "oklch(55% 0.16 1)"
+  },
+  "Crimson/Light/12": {
+    "$oklch": "oklch(30% 0.1 1)"
+  },
+  "Indigo/Dark/00": {
+    "$oklch": "oklch(14% 0.02 267)"
+  },
+  "Indigo/Dark/01": {
+    "$oklch": "oklch(18% 0.02 267)"
+  },
+  "Indigo/Dark/02": {
+    "$oklch": "oklch(20% 0.03 267)"
+  },
+  "Indigo/Dark/03": {
+    "$oklch": "oklch(25% 0.04 267)"
+  },
+  "Indigo/Dark/04": {
+    "$oklch": "oklch(30% 0.06 267)"
+  },
+  "Indigo/Dark/05": {
+    "$oklch": "oklch(35% 0.10 267)"
+  },
+  "Indigo/Dark/06": {
+    "$oklch": "oklch(40% 0.12 267)"
+  },
+  "Indigo/Dark/07": {
+    "$oklch": "oklch(45% 0.14 267)"
+  },
+  "Indigo/Dark/08": {
+    "$oklch": "oklch(55% 0.16 267)"
+  },
+  "Indigo/Dark/09": {
+    "$oklch": "oklch(65% 0.18 267)"
+  },
+  "Indigo/Dark/10": {
+    "$oklch": "oklch(70% 0.16 267)"
+  },
+  "Indigo/Dark/11": {
+    "$oklch": "oklch(75% 0.14 267)"
+  },
+  "Indigo/Dark/12": {
+    "$oklch": "oklch(90% 0.05 267)"
+  },
+  "Indigo/Light/00": {
+    "$oklch": "oklch(99% 0.01 267)"
+  },
+  "Indigo/Light/01": {
+    "$oklch": "oklch(99% 0.01 267)"
+  },
+  "Indigo/Light/02": {
+    "$oklch": "oklch(98% 0.014 267)"
+  },
+  "Indigo/Light/03": {
+    "$oklch": "oklch(96% 0.02 267)"
+  },
+  "Indigo/Light/04": {
+    "$oklch": "oklch(94% 0.04 267)"
+  },
+  "Indigo/Light/05": {
+    "$oklch": "oklch(90% 0.06 267)"
+  },
+  "Indigo/Light/06": {
+    "$oklch": "oklch(85% 0.08 267)"
+  },
+  "Indigo/Light/07": {
+    "$oklch": "oklch(80% 0.1 267)"
+  },
+  "Indigo/Light/08": {
+    "$oklch": "oklch(75% 0.12 267)"
+  },
+  "Indigo/Light/09": {
+    "$oklch": "oklch(65% 0.2 267)"
+  },
+  "Indigo/Light/10": {
+    "$oklch": "oklch(60% 0.18 267)"
+  },
+  "Indigo/Light/11": {
+    "$oklch": "oklch(55% 0.16 267)"
+  },
+  "Indigo/Light/12": {
+    "$oklch": "oklch(30% 0.1 267)"
+  },
+  "Iris/Dark/00": {
+    "$oklch": "oklch(14% 0.02 278)"
+  },
+  "Iris/Dark/01": {
+    "$oklch": "oklch(18% 0.02 278)"
+  },
+  "Iris/Dark/02": {
+    "$oklch": "oklch(20% 0.03 278)"
+  },
+  "Iris/Dark/03": {
+    "$oklch": "oklch(25% 0.04 278)"
+  },
+  "Iris/Dark/04": {
+    "$oklch": "oklch(30% 0.06 278)"
+  },
+  "Iris/Dark/05": {
+    "$oklch": "oklch(35% 0.10 278)"
+  },
+  "Iris/Dark/06": {
+    "$oklch": "oklch(40% 0.12 278)"
+  },
+  "Iris/Dark/07": {
+    "$oklch": "oklch(45% 0.14 278)"
+  },
+  "Iris/Dark/08": {
+    "$oklch": "oklch(55% 0.16 278)"
+  },
+  "Iris/Dark/09": {
+    "$oklch": "oklch(65% 0.18 278)"
+  },
+  "Iris/Dark/10": {
+    "$oklch": "oklch(70% 0.16 278)"
+  },
+  "Iris/Dark/11": {
+    "$oklch": "oklch(75% 0.14 278)"
+  },
+  "Iris/Dark/12": {
+    "$oklch": "oklch(90% 0.05 278)"
+  },
+  "Iris/Light/00": {
+    "$oklch": "oklch(99% 0.01 278)"
+  },
+  "Iris/Light/01": {
+    "$oklch": "oklch(99% 0.01 278)"
+  },
+  "Iris/Light/02": {
+    "$oklch": "oklch(98% 0.014 278)"
+  },
+  "Iris/Light/03": {
+    "$oklch": "oklch(96% 0.02 278)"
+  },
+  "Iris/Light/04": {
+    "$oklch": "oklch(94% 0.04 278)"
+  },
+  "Iris/Light/05": {
+    "$oklch": "oklch(90% 0.06 278)"
+  },
+  "Iris/Light/06": {
+    "$oklch": "oklch(85% 0.08 278)"
+  },
+  "Iris/Light/07": {
+    "$oklch": "oklch(80% 0.1 278)"
+  },
+  "Iris/Light/08": {
+    "$oklch": "oklch(75% 0.12 278)"
+  },
+  "Iris/Light/09": {
+    "$oklch": "oklch(65% 0.2 278)"
+  },
+  "Iris/Light/10": {
+    "$oklch": "oklch(60% 0.18 278)"
+  },
+  "Iris/Light/11": {
+    "$oklch": "oklch(55% 0.16 278)"
+  },
+  "Iris/Light/12": {
+    "$oklch": "oklch(30% 0.1 278)"
+  },
+  "Pink/Dark/00": {
+    "$oklch": "oklch(14% 0.02 346)"
+  },
+  "Pink/Dark/01": {
+    "$oklch": "oklch(18% 0.02 346)"
+  },
+  "Pink/Dark/02": {
+    "$oklch": "oklch(20% 0.03 346)"
+  },
+  "Pink/Dark/03": {
+    "$oklch": "oklch(25% 0.04 346)"
+  },
+  "Pink/Dark/04": {
+    "$oklch": "oklch(30% 0.06 346)"
+  },
+  "Pink/Dark/05": {
+    "$oklch": "oklch(35% 0.10 346)"
+  },
+  "Pink/Dark/06": {
+    "$oklch": "oklch(40% 0.12 346)"
+  },
+  "Pink/Dark/07": {
+    "$oklch": "oklch(45% 0.14 346)"
+  },
+  "Pink/Dark/08": {
+    "$oklch": "oklch(55% 0.16 346)"
+  },
+  "Pink/Dark/09": {
+    "$oklch": "oklch(65% 0.18 346)"
+  },
+  "Pink/Dark/10": {
+    "$oklch": "oklch(70% 0.16 346)"
+  },
+  "Pink/Dark/11": {
+    "$oklch": "oklch(75% 0.14 346)"
+  },
+  "Pink/Dark/12": {
+    "$oklch": "oklch(90% 0.05 346)"
+  },
+  "Pink/Light/00": {
+    "$oklch": "oklch(99% 0.01 346)"
+  },
+  "Pink/Light/01": {
+    "$oklch": "oklch(99% 0.01 346)"
+  },
+  "Pink/Light/02": {
+    "$oklch": "oklch(98% 0.014 346)"
+  },
+  "Pink/Light/03": {
+    "$oklch": "oklch(96% 0.02 346)"
+  },
+  "Pink/Light/04": {
+    "$oklch": "oklch(94% 0.04 346)"
+  },
+  "Pink/Light/05": {
+    "$oklch": "oklch(90% 0.06 346)"
+  },
+  "Pink/Light/06": {
+    "$oklch": "oklch(85% 0.08 346)"
+  },
+  "Pink/Light/07": {
+    "$oklch": "oklch(80% 0.1 346)"
+  },
+  "Pink/Light/08": {
+    "$oklch": "oklch(75% 0.12 346)"
+  },
+  "Pink/Light/09": {
+    "$oklch": "oklch(65% 0.2 346)"
+  },
+  "Pink/Light/10": {
+    "$oklch": "oklch(60% 0.18 346)"
+  },
+  "Pink/Light/11": {
+    "$oklch": "oklch(55% 0.16 346)"
+  },
+  "Pink/Light/12": {
+    "$oklch": "oklch(30% 0.1 346)"
+  },
+  "Plum/Dark/00": {
+    "$oklch": "oklch(14% 0.02 322)"
+  },
+  "Plum/Dark/01": {
+    "$oklch": "oklch(18% 0.02 322)"
+  },
+  "Plum/Dark/02": {
+    "$oklch": "oklch(20% 0.03 322)"
+  },
+  "Plum/Dark/03": {
+    "$oklch": "oklch(25% 0.04 322)"
+  },
+  "Plum/Dark/04": {
+    "$oklch": "oklch(30% 0.06 322)"
+  },
+  "Plum/Dark/05": {
+    "$oklch": "oklch(35% 0.10 322)"
+  },
+  "Plum/Dark/06": {
+    "$oklch": "oklch(40% 0.12 322)"
+  },
+  "Plum/Dark/07": {
+    "$oklch": "oklch(45% 0.14 322)"
+  },
+  "Plum/Dark/08": {
+    "$oklch": "oklch(55% 0.16 322)"
+  },
+  "Plum/Dark/09": {
+    "$oklch": "oklch(65% 0.18 322)"
+  },
+  "Plum/Dark/10": {
+    "$oklch": "oklch(70% 0.16 322)"
+  },
+  "Plum/Dark/11": {
+    "$oklch": "oklch(75% 0.14 322)"
+  },
+  "Plum/Dark/12": {
+    "$oklch": "oklch(90% 0.05 322)"
+  },
+  "Plum/Light/00": {
+    "$oklch": "oklch(99% 0.01 322)"
+  },
+  "Plum/Light/01": {
+    "$oklch": "oklch(99% 0.01 322)"
+  },
+  "Plum/Light/02": {
+    "$oklch": "oklch(98% 0.014 322)"
+  },
+  "Plum/Light/03": {
+    "$oklch": "oklch(96% 0.02 322)"
+  },
+  "Plum/Light/04": {
+    "$oklch": "oklch(94% 0.04 322)"
+  },
+  "Plum/Light/05": {
+    "$oklch": "oklch(90% 0.06 322)"
+  },
+  "Plum/Light/06": {
+    "$oklch": "oklch(85% 0.08 322)"
+  },
+  "Plum/Light/07": {
+    "$oklch": "oklch(80% 0.1 322)"
+  },
+  "Plum/Light/08": {
+    "$oklch": "oklch(75% 0.12 322)"
+  },
+  "Plum/Light/09": {
+    "$oklch": "oklch(65% 0.2 322)"
+  },
+  "Plum/Light/10": {
+    "$oklch": "oklch(60% 0.18 322)"
+  },
+  "Plum/Light/11": {
+    "$oklch": "oklch(55% 0.16 322)"
+  },
+  "Plum/Light/12": {
+    "$oklch": "oklch(30% 0.1 322)"
+  },
+  "Purple/Dark/00": {
+    "$oklch": "oklch(14% 0.02 306)"
+  },
+  "Purple/Dark/01": {
+    "$oklch": "oklch(18% 0.02 306)"
+  },
+  "Purple/Dark/02": {
+    "$oklch": "oklch(20% 0.03 306)"
+  },
+  "Purple/Dark/03": {
+    "$oklch": "oklch(25% 0.04 306)"
+  },
+  "Purple/Dark/04": {
+    "$oklch": "oklch(30% 0.06 306)"
+  },
+  "Purple/Dark/05": {
+    "$oklch": "oklch(35% 0.10 306)"
+  },
+  "Purple/Dark/06": {
+    "$oklch": "oklch(40% 0.12 306)"
+  },
+  "Purple/Dark/07": {
+    "$oklch": "oklch(45% 0.14 306)"
+  },
+  "Purple/Dark/08": {
+    "$oklch": "oklch(55% 0.16 306)"
+  },
+  "Purple/Dark/09": {
+    "$oklch": "oklch(65% 0.18 306)"
+  },
+  "Purple/Dark/10": {
+    "$oklch": "oklch(70% 0.16 306)"
+  },
+  "Purple/Dark/11": {
+    "$oklch": "oklch(75% 0.14 306)"
+  },
+  "Purple/Dark/12": {
+    "$oklch": "oklch(90% 0.05 306)"
+  },
+  "Purple/Light/00": {
+    "$oklch": "oklch(99% 0.01 306)"
+  },
+  "Purple/Light/01": {
+    "$oklch": "oklch(99% 0.01 306)"
+  },
+  "Purple/Light/02": {
+    "$oklch": "oklch(98% 0.014 306)"
+  },
+  "Purple/Light/03": {
+    "$oklch": "oklch(96% 0.02 306)"
+  },
+  "Purple/Light/04": {
+    "$oklch": "oklch(94% 0.04 306)"
+  },
+  "Purple/Light/05": {
+    "$oklch": "oklch(90% 0.06 306)"
+  },
+  "Purple/Light/06": {
+    "$oklch": "oklch(85% 0.08 306)"
+  },
+  "Purple/Light/07": {
+    "$oklch": "oklch(80% 0.1 306)"
+  },
+  "Purple/Light/08": {
+    "$oklch": "oklch(75% 0.12 306)"
+  },
+  "Purple/Light/09": {
+    "$oklch": "oklch(65% 0.2 306)"
+  },
+  "Purple/Light/10": {
+    "$oklch": "oklch(60% 0.18 306)"
+  },
+  "Purple/Light/11": {
+    "$oklch": "oklch(55% 0.16 306)"
+  },
+  "Purple/Light/12": {
+    "$oklch": "oklch(30% 0.1 306)"
+  },
+  "Red/Dark/00": {
+    "$oklch": "oklch(14% 0.02 23)"
+  },
+  "Red/Dark/01": {
+    "$oklch": "oklch(18% 0.02 23)"
+  },
+  "Red/Dark/02": {
+    "$oklch": "oklch(20% 0.03 23)"
+  },
+  "Red/Dark/03": {
+    "$oklch": "oklch(25% 0.04 23)"
+  },
+  "Red/Dark/04": {
+    "$oklch": "oklch(30% 0.06 23)"
+  },
+  "Red/Dark/05": {
+    "$oklch": "oklch(35% 0.10 23)"
+  },
+  "Red/Dark/06": {
+    "$oklch": "oklch(40% 0.12 23)"
+  },
+  "Red/Dark/07": {
+    "$oklch": "oklch(45% 0.14 23)"
+  },
+  "Red/Dark/08": {
+    "$oklch": "oklch(55% 0.16 23)"
+  },
+  "Red/Dark/09": {
+    "$oklch": "oklch(65% 0.18 23)"
+  },
+  "Red/Dark/10": {
+    "$oklch": "oklch(70% 0.16 23)"
+  },
+  "Red/Dark/11": {
+    "$oklch": "oklch(75% 0.14 23)"
+  },
+  "Red/Dark/12": {
+    "$oklch": "oklch(90% 0.05 23)"
+  },
+  "Red/Light/00": {
+    "$oklch": "oklch(99% 0.01 23)"
+  },
+  "Red/Light/01": {
+    "$oklch": "oklch(99% 0.01 23)"
+  },
+  "Red/Light/02": {
+    "$oklch": "oklch(98% 0.014 23)"
+  },
+  "Red/Light/03": {
+    "$oklch": "oklch(96% 0.02 23)"
+  },
+  "Red/Light/04": {
+    "$oklch": "oklch(94% 0.04 23)"
+  },
+  "Red/Light/05": {
+    "$oklch": "oklch(90% 0.06 23)"
+  },
+  "Red/Light/06": {
+    "$oklch": "oklch(85% 0.08 23)"
+  },
+  "Red/Light/07": {
+    "$oklch": "oklch(80% 0.1 23)"
+  },
+  "Red/Light/08": {
+    "$oklch": "oklch(75% 0.12 23)"
+  },
+  "Red/Light/09": {
+    "$oklch": "oklch(65% 0.2 23)"
+  },
+  "Red/Light/10": {
+    "$oklch": "oklch(60% 0.18 23)"
+  },
+  "Red/Light/11": {
+    "$oklch": "oklch(55% 0.16 23)"
+  },
+  "Red/Light/12": {
+    "$oklch": "oklch(30% 0.1 23)"
+  },
+  "Ruby/Dark/00": {
+    "$oklch": "oklch(14% 0.02 13)"
+  },
+  "Ruby/Dark/01": {
+    "$oklch": "oklch(18% 0.02 13)"
+  },
+  "Ruby/Dark/02": {
+    "$oklch": "oklch(20% 0.03 13)"
+  },
+  "Ruby/Dark/03": {
+    "$oklch": "oklch(25% 0.04 13)"
+  },
+  "Ruby/Dark/04": {
+    "$oklch": "oklch(30% 0.06 13)"
+  },
+  "Ruby/Dark/05": {
+    "$oklch": "oklch(35% 0.10 13)"
+  },
+  "Ruby/Dark/06": {
+    "$oklch": "oklch(40% 0.12 13)"
+  },
+  "Ruby/Dark/07": {
+    "$oklch": "oklch(45% 0.14 13)"
+  },
+  "Ruby/Dark/08": {
+    "$oklch": "oklch(55% 0.16 13)"
+  },
+  "Ruby/Dark/09": {
+    "$oklch": "oklch(65% 0.18 13)"
+  },
+  "Ruby/Dark/10": {
+    "$oklch": "oklch(70% 0.16 13)"
+  },
+  "Ruby/Dark/11": {
+    "$oklch": "oklch(75% 0.14 13)"
+  },
+  "Ruby/Dark/12": {
+    "$oklch": "oklch(90% 0.05 13)"
+  },
+  "Ruby/Light/00": {
+    "$oklch": "oklch(99% 0.01 13)"
+  },
+  "Ruby/Light/01": {
+    "$oklch": "oklch(99% 0.01 13)"
+  },
+  "Ruby/Light/02": {
+    "$oklch": "oklch(98% 0.014 13)"
+  },
+  "Ruby/Light/03": {
+    "$oklch": "oklch(96% 0.02 13)"
+  },
+  "Ruby/Light/04": {
+    "$oklch": "oklch(94% 0.04 13)"
+  },
+  "Ruby/Light/05": {
+    "$oklch": "oklch(90% 0.06 13)"
+  },
+  "Ruby/Light/06": {
+    "$oklch": "oklch(85% 0.08 13)"
+  },
+  "Ruby/Light/07": {
+    "$oklch": "oklch(80% 0.1 13)"
+  },
+  "Ruby/Light/08": {
+    "$oklch": "oklch(75% 0.12 13)"
+  },
+  "Ruby/Light/09": {
+    "$oklch": "oklch(65% 0.2 13)"
+  },
+  "Ruby/Light/10": {
+    "$oklch": "oklch(60% 0.18 13)"
+  },
+  "Ruby/Light/11": {
+    "$oklch": "oklch(55% 0.16 13)"
+  },
+  "Ruby/Light/12": {
+    "$oklch": "oklch(30% 0.1 13)"
+  },
+  "Slate/Dark/00": {
+    "$oklch": "oklch(14% 0.002 262)"
+  },
+  "Slate/Dark/01": {
+    "$oklch": "oklch(18% 0.003 262)"
+  },
+  "Slate/Dark/02": {
+    "$oklch": "oklch(18% 0.004 262)"
+  },
+  "Slate/Dark/03": {
+    "$oklch": "oklch(24% 0.006 262)"
+  },
+  "Slate/Dark/04": {
+    "$oklch": "oklch(28% 0.007 262)"
+  },
+  "Slate/Dark/05": {
+    "$oklch": "oklch(30% 0.008 262)"
+  },
+  "Slate/Dark/06": {
+    "$oklch": "oklch(34% 0.01 262)"
+  },
+  "Slate/Dark/07": {
+    "$oklch": "oklch(40% 0.012 262)"
+  },
+  "Slate/Dark/08": {
+    "$oklch": "oklch(50% 0.016 262)"
+  },
+  "Slate/Dark/09": {
+    "$oklch": "oklch(54% 0.014 262)"
+  },
+  "Slate/Dark/10": {
+    "$oklch": "oklch(58% 0.012 262)"
+  },
+  "Slate/Dark/11": {
+    "$oklch": "oklch(76% 0.01 262)"
+  },
+  "Slate/Dark/12": {
+    "$oklch": "oklch(96% 0.002 262)"
+  },
+  "Slate/Light/00": {
+    "$oklch": "oklch(99% 0.0012 262)"
+  },
+  "Slate/Light/01": {
+    "$oklch": "oklch(99% 0.0012 262)"
+  },
+  "Slate/Light/02": {
+    "$oklch": "oklch(98% 0.002 262)"
+  },
+  "Slate/Light/03": {
+    "$oklch": "oklch(96% 0.004 262)"
+  },
+  "Slate/Light/04": {
+    "$oklch": "oklch(95% 0.006 262)"
+  },
+  "Slate/Light/05": {
+    "$oklch": "oklch(92% 0.008 262)"
+  },
+  "Slate/Light/06": {
+    "$oklch": "oklch(88% 0.01 262)"
+  },
+  "Slate/Light/07": {
+    "$oklch": "oklch(84% 0.012 262)"
+  },
+  "Slate/Light/08": {
+    "$oklch": "oklch(80% 0.014 262)"
+  },
+  "Slate/Light/09": {
+    "$oklch": "oklch(64% 0.016 262)"
+  },
+  "Slate/Light/10": {
+    "$oklch": "oklch(60% 0.014 262)"
+  },
+  "Slate/Light/11": {
+    "$oklch": "oklch(50% 0.012 262)"
+  },
+  "Slate/Light/12": {
+    "$oklch": "oklch(24% 0.01 262)"
+  },
+  "Tomato/Dark/00": {
+    "$oklch": "oklch(14% 0.02 33)"
+  },
+  "Tomato/Dark/01": {
+    "$oklch": "oklch(18% 0.02 33)"
+  },
+  "Tomato/Dark/02": {
+    "$oklch": "oklch(20% 0.03 33)"
+  },
+  "Tomato/Dark/03": {
+    "$oklch": "oklch(25% 0.04 33)"
+  },
+  "Tomato/Dark/04": {
+    "$oklch": "oklch(30% 0.06 33)"
+  },
+  "Tomato/Dark/05": {
+    "$oklch": "oklch(35% 0.10 33)"
+  },
+  "Tomato/Dark/06": {
+    "$oklch": "oklch(40% 0.12 33)"
+  },
+  "Tomato/Dark/07": {
+    "$oklch": "oklch(45% 0.14 33)"
+  },
+  "Tomato/Dark/08": {
+    "$oklch": "oklch(55% 0.16 33)"
+  },
+  "Tomato/Dark/09": {
+    "$oklch": "oklch(65% 0.18 33)"
+  },
+  "Tomato/Dark/10": {
+    "$oklch": "oklch(70% 0.16 33)"
+  },
+  "Tomato/Dark/11": {
+    "$oklch": "oklch(75% 0.14 33)"
+  },
+  "Tomato/Dark/12": {
+    "$oklch": "oklch(90% 0.05 33)"
+  },
+  "Tomato/Light/00": {
+    "$oklch": "oklch(99% 0.01 33)"
+  },
+  "Tomato/Light/01": {
+    "$oklch": "oklch(99% 0.01 33)"
+  },
+  "Tomato/Light/02": {
+    "$oklch": "oklch(98% 0.014 33)"
+  },
+  "Tomato/Light/03": {
+    "$oklch": "oklch(96% 0.02 33)"
+  },
+  "Tomato/Light/04": {
+    "$oklch": "oklch(94% 0.04 33)"
+  },
+  "Tomato/Light/05": {
+    "$oklch": "oklch(90% 0.06 33)"
+  },
+  "Tomato/Light/06": {
+    "$oklch": "oklch(85% 0.08 33)"
+  },
+  "Tomato/Light/07": {
+    "$oklch": "oklch(80% 0.1 33)"
+  },
+  "Tomato/Light/08": {
+    "$oklch": "oklch(75% 0.12 33)"
+  },
+  "Tomato/Light/09": {
+    "$oklch": "oklch(65% 0.2 33)"
+  },
+  "Tomato/Light/10": {
+    "$oklch": "oklch(60% 0.18 33)"
+  },
+  "Tomato/Light/11": {
+    "$oklch": "oklch(55% 0.16 33)"
+  },
+  "Tomato/Light/12": {
+    "$oklch": "oklch(30% 0.1 33)"
+  },
+  "Violet/Dark/00": {
+    "$oklch": "oklch(14% 0.02 288)"
+  },
+  "Violet/Dark/01": {
+    "$oklch": "oklch(18% 0.02 288)"
+  },
+  "Violet/Dark/02": {
+    "$oklch": "oklch(20% 0.03 288)"
+  },
+  "Violet/Dark/03": {
+    "$oklch": "oklch(25% 0.04 288)"
+  },
+  "Violet/Dark/04": {
+    "$oklch": "oklch(30% 0.06 288)"
+  },
+  "Violet/Dark/05": {
+    "$oklch": "oklch(35% 0.10 288)"
+  },
+  "Violet/Dark/06": {
+    "$oklch": "oklch(40% 0.12 288)"
+  },
+  "Violet/Dark/07": {
+    "$oklch": "oklch(45% 0.14 288)"
+  },
+  "Violet/Dark/08": {
+    "$oklch": "oklch(55% 0.16 288)"
+  },
+  "Violet/Dark/09": {
+    "$oklch": "oklch(65% 0.18 288)"
+  },
+  "Violet/Dark/10": {
+    "$oklch": "oklch(70% 0.16 288)"
+  },
+  "Violet/Dark/11": {
+    "$oklch": "oklch(75% 0.14 288)"
+  },
+  "Violet/Dark/12": {
+    "$oklch": "oklch(90% 0.05 288)"
+  },
+  "Violet/Light/00": {
+    "$oklch": "oklch(99% 0.01 288)"
+  },
+  "Violet/Light/01": {
+    "$oklch": "oklch(99% 0.01 288)"
+  },
+  "Violet/Light/02": {
+    "$oklch": "oklch(98% 0.014 288)"
+  },
+  "Violet/Light/03": {
+    "$oklch": "oklch(96% 0.02 288)"
+  },
+  "Violet/Light/04": {
+    "$oklch": "oklch(94% 0.04 288)"
+  },
+  "Violet/Light/05": {
+    "$oklch": "oklch(90% 0.06 288)"
+  },
+  "Violet/Light/06": {
+    "$oklch": "oklch(85% 0.08 288)"
+  },
+  "Violet/Light/07": {
+    "$oklch": "oklch(80% 0.1 288)"
+  },
+  "Violet/Light/08": {
+    "$oklch": "oklch(75% 0.12 288)"
+  },
+  "Violet/Light/09": {
+    "$oklch": "oklch(65% 0.2 288)"
+  },
+  "Violet/Light/10": {
+    "$oklch": "oklch(60% 0.18 288)"
+  },
+  "Violet/Light/11": {
+    "$oklch": "oklch(55% 0.16 288)"
+  },
+  "Violet/Light/12": {
+    "$oklch": "oklch(30% 0.1 288)"
   }
 }

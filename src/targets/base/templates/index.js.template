@@ -1,16 +1,49 @@
-export default {
+const oklch = {
   {{#palette}}
-  {{colorName}}: {
+  {{colorKey}}: {
+    category: '{{category}}',
+    colorName: '{{colorName}}',
     dark: {
       {{#dark}}	
-      shade{{shadeName}}: "{{oklch}}",
+      {{shadeName}}: {
+        color: "{{oklch}}",
+        foreground: "{{oklchForeground}}",
+      },
       {{/dark}}
     },
     light: {
       {{#light}}	
-      shade{{shadeName}}: "{{oklch}}",
+      {{shadeName}}: {
+        color: "{{oklch}}",
+        foreground: "{{oklchForeground}}",
+      },
       {{/light}}
     }
   },
   {{/palette}}
 };
+const rgb = {
+  {{#palette}}
+  {{colorKey}}: {
+    category: '{{category}}',
+    colorName: '{{colorName}}',
+    dark: {
+      {{#dark}}	
+      {{shadeName}}: {
+        color: "{{rgb}}",
+        foreground: "{{rgbForeground}}",
+      },
+      {{/dark}}
+    },
+    light: {
+      {{#light}}	
+      {{shadeName}}: {
+        color: "{{rgb}}",
+        foreground: "{{rgbForeground}}",
+      },
+      {{/light}}
+    }
+  },
+  {{/palette}}
+};
+export { oklch, rgb }
