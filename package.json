@@ -12,6 +12,8 @@
     "eslint": "9.17.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-unicorn": "56.0.1",
+    "husky": "9.1.7",
+    "lint-staged": "15.3.0",
     "mustache": "4.2.0",
     "prettier": "3.4.2",
     "prettier-plugin-sort-json": "4.0.0",
@@ -55,6 +57,12 @@
     "tailwind"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -64,6 +72,7 @@
     "dev": "bun --watch src/build.ts",
     "format": "prettier --write 'src/**/*.{json,js,ts,tsx}' && syncpack format",
     "lint": "eslint --fix && syncpack format && syncpack lint",
+    "prepare": "husky install",
     "prepublishOnly": "npm run build",
     "sync": "syncpack fix-mismatches",
     "update": "syncpack update"
