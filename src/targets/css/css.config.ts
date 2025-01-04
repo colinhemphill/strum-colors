@@ -1,7 +1,7 @@
 import path from 'node:path';
 import { defineBuildConfig } from '../../builder.ts';
 
-export default defineBuildConfig((colors) => ({
+export default defineBuildConfig((palette) => ({
   dir: 'css',
   outputs: [
     {
@@ -11,7 +11,7 @@ export default defineBuildConfig((colors) => ({
       ),
       file: 'index.css',
     },
-    ...colors.map((color) => ({
+    ...palette.map((color) => ({
       templatePath: path.join(
         import.meta.dirname,
         'templates/[color].css.template',

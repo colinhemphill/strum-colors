@@ -1,7 +1,7 @@
 declare namespace oklch {
   {{#palette}}
   let {{colorKey}}: {
-    category: string,
+    category: 'accent' | 'accentBright' | 'neutral',
     colorName: string;
     dark: {
       {{#dark}}	
@@ -25,7 +25,7 @@ declare namespace oklch {
 declare namespace rgb {
   {{#palette}}
   let {{colorKey}}: {
-    category: string;
+    category: 'accent' | 'accentBright' | 'neutral';
     colorName: string;
     dark: {
       {{#dark}}	

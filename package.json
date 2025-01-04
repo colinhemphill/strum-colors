@@ -28,6 +28,7 @@
       "require": "./dist/tailwind/index.cjs",
       "default": "./dist/tailwind/index.js"
     },
+    "./tailwind/*": "./dist/tailwind/*",
     "./tailwind.css": "./dist/tailwind/index.css",
     "./base": {
       "types": "./dist/base/index.d.ts",

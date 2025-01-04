@@ -16,13 +16,15 @@ export type Palette = {
   light: Shade[];
 }[];
 
+export interface BuildOutput {
+  file: string;
+  templatePath: string;
+  templateVars?: Record<string, unknown>;
+}
+
 interface BuildTarget {
   dir: string;
-  outputs: {
-    file: string;
-    templatePath: string;
-    templateVars?: Record<string, unknown>;
-  }[];
+  outputs: BuildOutput[];
 }
 
 export type BuildConfig = BuildTarget | ((palette: Palette) => BuildTarget);

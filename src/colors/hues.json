@@ -1,7 +1,7 @@
 [
   {
     "category": "accent",
-    "hue": 250,
+    "hue": 255,
     "name": "Blue"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "category": "accent",
-    "hue": 265,
+    "hue": 270,
     "name": "Indigo"
   },
   {
@@ -121,7 +121,7 @@
   },
   {
     "category": "neutral",
-    "hue": 250,
+    "hue": 270,
     "name": "Slate"
   },
   {

@@ -38,11 +38,7 @@ export enum NeutralColor {
 
 export type ColorName = AccentColor | AccentBrightColor | NeutralColor;
 
-export enum ColorCategory {
-  Accent = 'accent',
-  AccentBright = 'accentBright',
-  Neutral = 'neutral',
-}
+export type ColorCategory = 'accent' | 'accentBright' | 'neutral';
 
 export enum ColorMode {
   Dark = 'dark',
