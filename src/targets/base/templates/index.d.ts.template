@@ -5,18 +5,12 @@ declare namespace oklch {
     colorName: string;
     dark: {
       {{#dark}}	
-      {{shadeName}}: {
-        color: string,
-        foreground: string,
-      },
+      {{shadeName}}: string;
       {{/dark}}
     },
     light: {
       {{#light}}	
-      {{shadeName}}: {
-        color: string,
-        foreground: string,
-      },
+      {{shadeName}}: string;
       {{/light}}
     }
   };
@@ -29,18 +23,12 @@ declare namespace rgb {
     colorName: string;
     dark: {
       {{#dark}}	
-      {{shadeName}}: {
-        color: string,
-        foreground: string,
-      },
+      {{shadeName}}: string;
       {{/dark}}
     },
     light: {
       {{#light}}	
-      {{shadeName}}: {
-        color: string,
-        foreground: string,
-      },
+      {{shadeName}}: string;
       {{/light}}
     }
   };

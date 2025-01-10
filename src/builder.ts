@@ -1,5 +1,4 @@
 import { ColorMode, ColorName } from '@src/utils/types-public.ts';
-import { apcach, apcachToCss, crToBg } from 'apcach';
 import { Color, formatCss, formatHex, oklch, rgb } from 'culori';
 import mustache from 'mustache';
 import { mkdir, rm } from 'node:fs/promises';
@@ -120,13 +119,10 @@ export async function build(
           h: color.hue,
         });
         const oklchCss = formatCss(oklchObject);
-        const foreground = apcach(crToBg(oklchCss, 60), shade.c, color.hue);
         const shadeVariables = {
           oklch: oklchCss,
-          oklchForeground: apcachToCss(foreground, 'oklch'),
           shadeName,
           rgb: formatHex(rgb(oklchCss) as Color),
-          rgbForeground: apcachToCss(foreground, 'hex'),
         } satisfies Shade;
         if (colorMode === ColorMode.Dark) {
           colorDetails.dark.push(shadeVariables);

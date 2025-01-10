@@ -9,7 +9,6 @@ declare namespace _default {
   let {{colorKey}}: {
     {{#light}}	
     {{shadeName}}: string;
-    '{{shadeName}}-foreground': string;
     {{/light}}
   };
   {{/palette}}

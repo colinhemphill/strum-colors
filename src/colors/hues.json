@@ -85,9 +85,10 @@
     "name": "Gold"
   },
   {
-    "category": "accentBright",
+    "category": "accent",
     "hue": 45,
-    "name": "Brown"
+    "name": "Brown",
+    "saturation": 0.5
   },
   {
     "category": "accent",
@@ -95,13 +96,13 @@
     "name": "Orange"
   },
   {
-    "category": "accent",
+    "category": "accentBright",
     "hue": 90,
     "name": "Amber"
   },
   {
     "category": "accentBright",
-    "hue": 95,
+    "hue": 100,
     "name": "Yellow"
   },
   {

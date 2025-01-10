@@ -1,14 +1,12 @@
 :root, .light, .light-theme {
   {{#light}}
   --{{colorKey}}-{{shadeName}}: {{rgb}};
-  --{{colorKey}}-{{shadeName}}-foreground: {{rgbForeground}};
   {{/light}}
 }
 
 .dark, .dark-theme {
   {{#dark}}
   --{{colorKey}}-{{shadeName}}: {{rgb}};
-  --{{colorKey}}-{{shadeName}}-foreground: {{rgbForeground}};
   {{/dark}}
 }
 
@@ -17,13 +15,11 @@
     :root, .light, .light-theme {
       {{#light}}	
       --{{colorKey}}-{{shadeName}}: {{oklch}};
-      --{{colorKey}}-{{shadeName}}-foreground: {{oklchForeground}};
       {{/light}}
     }
     .dark, .dark-theme {
       {{#dark}}	
       --{{colorKey}}-{{shadeName}}: {{oklch}};
-      --{{colorKey}}-{{shadeName}}-foreground: {{oklchForeground}};
       {{/dark}}
     }
   }

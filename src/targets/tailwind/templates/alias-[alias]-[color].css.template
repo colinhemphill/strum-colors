@@ -12,16 +12,4 @@
   --color-{{alias}}-10: var(--{{colorKey}}-10);
   --color-{{alias}}-11: var(--{{colorKey}}-11);
   --color-{{alias}}-12: var(--{{colorKey}}-12);
-  --color-{{alias}}-1-foreground: var(--{{colorKey}}-1-foreground);
-  --color-{{alias}}-2-foreground: var(--{{colorKey}}-2-foreground);
-  --color-{{alias}}-3-foreground: var(--{{colorKey}}-3-foreground);
-  --color-{{alias}}-4-foreground: var(--{{colorKey}}-4-foreground);
-  --color-{{alias}}-5-foreground: var(--{{colorKey}}-5-foreground);
-  --color-{{alias}}-6-foreground: var(--{{colorKey}}-6-foreground);
-  --color-{{alias}}-7-foreground: var(--{{colorKey}}-7-foreground);
-  --color-{{alias}}-8-foreground: var(--{{colorKey}}-8-foreground);
-  --color-{{alias}}-9-foreground: var(--{{colorKey}}-9-foreground);
-  --color-{{alias}}-10-foreground: var(--{{colorKey}}-10-foreground);
-  --color-{{alias}}-11-foreground: var(--{{colorKey}}-11-foreground);
-  --color-{{alias}}-12-foreground: var(--{{colorKey}}-12-foreground);
 }

@@ -9,7 +9,6 @@ export default {
   {{colorKey}}: {
     {{#light}}	
     {{shadeName}}: "var(--{{colorKey}}-{{shadeName}})",
-    '{{shadeName}}-foreground': "var(--{{colorKey}}-{{shadeName}}-foreground)",
     {{/light}}
   },
   {{/palette}}
