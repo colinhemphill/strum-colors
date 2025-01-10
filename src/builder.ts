@@ -1,9 +1,4 @@
-import {
-  ColorCategory,
-  ColorMode,
-  ColorName,
-} from '@src/utils/types-public.ts';
-import { apcach, apcachToCss, crToBg } from 'apcach';
+import { ColorMode, ColorName } from '@src/utils/types-public.ts';
 import { Color, formatCss, formatHex, oklch, rgb } from 'culori';
 import mustache from 'mustache';
 import { mkdir, rm } from 'node:fs/promises';
@@ -21,7 +16,7 @@ const ShadeSchema = v.object({
 const ColorNameSchema = v.pipe(
   v.string(),
   v.regex(
-    /(1[0-2]|0[0-9])\/(dark|light)/,
+    /(dark|light)\/(1[0-2]|0[0-9])/,
     'Key must be a padded number between 0 and 12 and the color mode, e.g. "04/dark" or "11/light"',
   ),
 );
@@ -34,8 +29,8 @@ const ShadesSchema = v.object({
 
 const HuesSchema = v.array(
   v.object({
-    category: v.enum(
-      ColorCategory,
+    category: v.picklist(
+      ['accent', 'accentBright', 'neutral'],
       'Category must be "accent", "accentBright", or "neutral"',
     ),
     hue: v.number(),
@@ -99,22 +94,22 @@ export async function build(
         }
       >;
       switch (color.category) {
-        case ColorCategory.Accent: {
+        case 'accent': {
           shades = accentShades;
           break;
         }
-        case ColorCategory.AccentBright: {
+        case 'accentBright': {
           shades = accentBrightShades;
           break;
         }
-        case ColorCategory.Neutral: {
+        case 'neutral': {
           shades = neutralShades;
           break;
         }
       }
 
       for (const [key, shade] of Object.entries(shades)) {
-        const [paddedShadeName, mode] = key.split('/');
+        const [mode, paddedShadeName] = key.split('/');
         const colorMode = mode as ColorMode;
         const shadeName = Number.parseInt(paddedShadeName).toString(); // remove leading 0
         const oklchObject = oklch({
@@ -124,13 +119,10 @@ export async function build(
           h: color.hue,
         });
         const oklchCss = formatCss(oklchObject);
-        const foreground = apcach(crToBg(oklchCss, 60), shade.c, color.hue);
         const shadeVariables = {
           oklch: oklchCss,
-          oklchForeground: apcachToCss(foreground, 'oklch'),
           shadeName,
           rgb: formatHex(rgb(oklchCss) as Color),
-          rgbForeground: apcachToCss(foreground, 'hex'),
         } satisfies Shade;
         if (colorMode === ColorMode.Dark) {
           colorDetails.dark.push(shadeVariables);

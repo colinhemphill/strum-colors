@@ -1,25 +1,26 @@
 {
   "name": "@strum/colors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "devDependencies": {
     "@eslint/js": "9.17.0",
     "@types/culori": "2.1.1",
     "@types/mustache": "4.2.5",
-    "apcach": "0.6.4",
     "bun-plugin-dts": "0.3.0",
-    "bun-types": "1.1.42",
+    "bun-types": "1.1.43",
     "culori": "4.0.1",
     "eslint": "9.17.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-unicorn": "56.0.1",
+    "husky": "9.1.7",
+    "lint-staged": "15.3.0",
     "mustache": "4.2.0",
     "prettier": "3.4.2",
-    "prettier-plugin-sort-json": "4.0.0",
-    "publint": "0.2.12",
+    "prettier-plugin-sort-json": "4.1.1",
+    "publint": "0.3.0",
     "syncpack": "13.0.0",
     "tailwindcss": "3.4.17",
-    "typescript-eslint": "8.19.0",
-    "valibot": "1.0.0-beta.9"
+    "typescript-eslint": "8.19.1",
+    "valibot": "1.0.0-beta.11"
   },
   "exports": {
     "./tailwind": {
@@ -28,6 +29,7 @@
       "require": "./dist/tailwind/index.cjs",
       "default": "./dist/tailwind/index.js"
     },
+    "./tailwind/*": "./dist/tailwind/*",
     "./tailwind.css": "./dist/tailwind/index.css",
     "./base": {
       "types": "./dist/base/index.d.ts",
@@ -54,6 +56,12 @@
     "tailwind"
   ],
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -63,6 +71,7 @@
     "dev": "bun --watch src/build.ts",
     "format": "prettier --write 'src/**/*.{json,js,ts,tsx}' && syncpack format",
     "lint": "eslint --fix && syncpack format && syncpack lint",
+    "prepare": "husky install",
     "prepublishOnly": "npm run build",
     "sync": "syncpack fix-mismatches",
     "update": "syncpack update"

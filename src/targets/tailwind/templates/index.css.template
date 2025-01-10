@@ -9,7 +9,6 @@
   {{#palette}}
   {{#light}}
   --color-{{colorKey}}-{{shadeName}}: var(--{{colorKey}}-{{shadeName}});
-  --color-{{colorKey}}-{{shadeName}}-foreground: var(--{{colorKey}}-{{shadeName}}-foreground);
   {{/light}}
   {{/palette}}
 }

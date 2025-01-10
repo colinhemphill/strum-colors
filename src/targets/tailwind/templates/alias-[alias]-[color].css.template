@@ -1,0 +1,15 @@
+@theme {
+  --color-{{alias}}-0: var(--{{colorKey}}-0);
+  --color-{{alias}}-1: var(--{{colorKey}}-1);
+  --color-{{alias}}-2: var(--{{colorKey}}-2);
+  --color-{{alias}}-3: var(--{{colorKey}}-3);
+  --color-{{alias}}-4: var(--{{colorKey}}-4);
+  --color-{{alias}}-5: var(--{{colorKey}}-5);
+  --color-{{alias}}-6: var(--{{colorKey}}-6);
+  --color-{{alias}}-7: var(--{{colorKey}}-7);
+  --color-{{alias}}-8: var(--{{colorKey}}-8);
+  --color-{{alias}}-9: var(--{{colorKey}}-9);
+  --color-{{alias}}-10: var(--{{colorKey}}-10);
+  --color-{{alias}}-11: var(--{{colorKey}}-11);
+  --color-{{alias}}-12: var(--{{colorKey}}-12);
+}

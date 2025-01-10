@@ -6,18 +6,12 @@ const oklch = {
     colorName: '{{colorName}}',
     dark: {
       {{#dark}}	
-      {{shadeName}}: {
-        color: "{{oklch}}",
-        foreground: "{{oklchForeground}}",
-      },
+      {{shadeName}}: "{{oklch}}",
       {{/dark}}
     },
     light: {
       {{#light}}	
-      {{shadeName}}: {
-        color: "{{oklch}}",
-        foreground: "{{oklchForeground}}",
-      },
+      {{shadeName}}: "{{oklch}}",
       {{/light}}
     }
   },
@@ -30,18 +24,12 @@ const rgb = {
     colorName: '{{colorName}}',
     dark: {
       {{#dark}}	
-      {{shadeName}}: {
-        color: "{{rgb}}",
-        foreground: "{{rgbForeground}}",
-      },
+      {{shadeName}}: "{{rgb}}",
       {{/dark}}
     },
     light: {
       {{#light}}	
-      {{shadeName}}: {
-        color: "{{rgb}}",
-        foreground: "{{rgbForeground}}",
-      },
+      {{shadeName}}: "{{rgb}}",
       {{/light}}
     }
   },
