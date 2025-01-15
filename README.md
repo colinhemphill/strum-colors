@@ -48,7 +48,7 @@ h1 {
 Or import all colors at once.
 
 ```css
-@import '@evilmartians/harmony/css/index.css';
+@import '@strum/colors/css/index.css';
 
 body {
   background-color: var(--slate-1);
