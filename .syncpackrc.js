@@ -11,18 +11,5 @@ export default {
       dependencies: ['**'],
       range: '',
     },
-    {
-      label: 'use Tailwind CSS v3',
-      packages: ['**'],
-      dependencyTypes: ['**'],
-      dependencies: ['tailwindcss'],
-      range: '^',
-    },
-  ],
-  versionGroups: [
-    {
-      dependencies: ['tailwindcss'],
-      pinVersion: '^3.4.17',
-    },
   ],
 };
