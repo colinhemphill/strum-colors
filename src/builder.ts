@@ -1,4 +1,4 @@
-import { ColorMode, ColorName } from '@src/public-types/index.ts';
+import { ColorMode, ColorName } from '@src/public';
 import { Color, formatCss, formatHex, oklch, rgb } from 'culori';
 import mustache from 'mustache';
 import { mkdir, rm } from 'node:fs/promises';

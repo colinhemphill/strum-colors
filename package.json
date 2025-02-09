@@ -1,6 +1,6 @@
 {
   "name": "@strum/colors",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "devDependencies": {
     "@eslint/js": "9.20.0",
     "@types/culori": "2.1.1",
@@ -42,16 +42,10 @@
       "require": "./dist/base/index.cjs",
       "default": "./dist/base/index.js"
     },
-    "./css/*": "./dist/css/*",
-    "./utils": {
-      "types": "./dist/utils/index.d.ts",
-      "import": "./dist/utils/index.js",
-      "require": "./dist/utils/index.cjs",
-      "default": "./dist/utils/index.js"
-    }
+    "./css/*": "./dist/css/*"
   },
   "files": [
-    "dist/*"
+    "dist"
   ],
   "keywords": [
     "colors",

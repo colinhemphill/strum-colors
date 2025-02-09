@@ -1,4 +1,4 @@
-import { ColorName } from '@src/public-types';
+import { ColorName } from '@src/public';
 
 type AliasColorsArguments = Record<string, ColorName>;
 type Config = Record<string, Record<number, string>>;

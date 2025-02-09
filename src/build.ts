@@ -10,51 +10,23 @@ const out = path.resolve(process.cwd(), 'dist');
 
 await build(out, configs);
 
-const utils = path.resolve(process.cwd(), 'src', 'utils', 'index.ts');
-const outUtils = path.resolve(process.cwd(), 'dist', 'utils');
+const entryPublic = path.resolve(process.cwd(), 'src', 'public', 'index.ts');
+const outPublic = path.resolve(process.cwd(), 'dist');
 
 await Bun.build({
-  entrypoints: [utils],
+  entrypoints: [entryPublic],
   format: 'cjs',
   naming: '[dir]/[name].cjs',
-  outdir: outUtils,
+  outdir: outPublic,
   plugins: [dts()],
   target: 'browser',
 });
 
 await Bun.build({
-  entrypoints: [utils],
+  entrypoints: [entryPublic],
   format: 'esm',
   naming: '[dir]/[name].js',
-  outdir: outUtils,
-  plugins: [dts()],
-  target: 'browser',
-});
-
-// public types
-
-const publicTypes = path.resolve(
-  process.cwd(),
-  'src',
-  'public-types',
-  'index.ts',
-);
-const outPublicTypes = path.resolve(process.cwd(), 'dist');
-
-await Bun.build({
-  entrypoints: [publicTypes],
-  format: 'cjs',
-  naming: '[dir]/[name].cjs',
-  outdir: outPublicTypes,
-  plugins: [dts()],
-  target: 'browser',
-});
-
-await Bun.build({
-  entrypoints: [publicTypes],
-  format: 'esm',
-  naming: '[dir]/[name].js',
-  outdir: outPublicTypes,
+  outdir: outPublic,
   plugins: [dts()],
   target: 'browser',
 });
