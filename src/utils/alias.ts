@@ -1,12 +1,10 @@
 import { ColorName } from '@src/public-types';
-import { CustomThemeConfig } from 'tailwindcss/types/config';
 
 type AliasColorsArguments = Record<string, ColorName>;
+type Config = Record<string, Record<number, string>>;
 
-function aliasColors(
-  aliasColorsArguments: AliasColorsArguments,
-): Partial<CustomThemeConfig> {
-  const config: Partial<CustomThemeConfig> = {};
+function aliasColors(aliasColorsArguments: AliasColorsArguments): Config {
+  const config: Config = {};
 
   for (const [alias, colorName] of Object.entries(aliasColorsArguments)) {
     config[alias] = {

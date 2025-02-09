@@ -1,6 +1,6 @@
 {
   "name": "@strum/colors",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "devDependencies": {
     "@eslint/js": "9.20.0",
     "@types/culori": "2.1.1",
@@ -18,7 +18,6 @@
     "prettier-plugin-sort-json": "4.1.1",
     "publint": "0.3.4",
     "syncpack": "13.0.2",
-    "tailwindcss": "^3.4.17",
     "typescript-eslint": "8.23.0",
     "valibot": "1.0.0-beta.15"
   },
