@@ -1,6 +1,6 @@
 # Strum Colors: Accessible Tailwind-First Color Palette
 
-<a href="https://www.npmjs.com/package/@strum/colors"><img alt="NPM Version" src="https://img.shields.io/npm/v/%40strum%2Fcolors?style=flat&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40strum%2Fcolors"></a>
+<a href="https://www.npmjs.com/package/@strum/colors"><img alt="NPM Version" src="https://img.shields.io/npm/v/%40strum%2Fcolors?style=flat&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40strum%2Fcolors"></a> [![Netlify Status](https://api.netlify.com/api/v1/badges/bd3e1fbe-0628-43e6-9274-4a6a9a985a71/deploy-status)](https://app.netlify.com/sites/strum-colors/deploys)
 
 This package is in beta. Please let me know what you think!
 
