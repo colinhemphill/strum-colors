@@ -1,4 +1,4 @@
-import { ColorCategory, ColorName } from '@src/utils/types-public';
+import { ColorCategory, ColorName } from '@src/public-types';
 
 export interface Shade {
   oklch: string;

@@ -31,14 +31,21 @@ await Bun.build({
   target: 'browser',
 });
 
-// copy public types
+// public types
 
 const publicTypes = path.resolve(
   process.cwd(),
   'src',
-  'utils',
-  'types-public.ts',
+  'public-types',
+  'index.ts',
 );
-const outPublicTypes = path.resolve(process.cwd(), 'dist', 'types', 'index.ts');
-const typesFile = Bun.file(publicTypes);
-await Bun.write(outPublicTypes, typesFile);
+const outPublicTypes = path.resolve(process.cwd(), 'dist');
+
+await Bun.build({
+  entrypoints: [publicTypes],
+  format: 'esm',
+  naming: '[dir]/[name].js',
+  outdir: outPublicTypes,
+  plugins: [dts()],
+  target: 'browser',
+});

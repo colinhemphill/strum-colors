@@ -1,4 +1,4 @@
-import { ColorMode, ColorName } from '@src/utils/types-public.ts';
+import { ColorMode, ColorName } from '@src/public-types/index.ts';
 import { Color, formatCss, formatHex, oklch, rgb } from 'culori';
 import mustache from 'mustache';
 import { mkdir, rm } from 'node:fs/promises';
@@ -6,7 +6,7 @@ import path from 'node:path';
 import * as v from 'valibot';
 import huesSource from './colors/hues.json' with { type: 'json' };
 import shadesSource from './colors/shades.json' with { type: 'json' };
-import { BuildConfig, Palette, Shade } from './types.ts';
+import { BuildConfig, Palette, Shade } from './types-private.ts';
 
 const ShadeSchema = v.object({
   l: v.number(),
