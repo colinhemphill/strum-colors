@@ -1,4 +1,4 @@
-import { ColorName } from '@src/utils/types-public';
+import { ColorName } from '@src/public-types';
 import { CustomThemeConfig } from 'tailwindcss/types/config';
 
 type AliasColorsArguments = Record<string, ColorName>;

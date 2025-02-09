@@ -1,5 +1,5 @@
 import { defineBuildConfig } from '@src/builder';
-import { BuildOutput } from '@src/types';
+import { BuildOutput } from '@src/types-private';
 import path from 'node:path';
 
 const aliases = [
