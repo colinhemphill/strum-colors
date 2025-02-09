@@ -43,6 +43,15 @@ const outPublicTypes = path.resolve(process.cwd(), 'dist');
 
 await Bun.build({
   entrypoints: [publicTypes],
+  format: 'cjs',
+  naming: '[dir]/[name].cjs',
+  outdir: outPublicTypes,
+  plugins: [dts()],
+  target: 'browser',
+});
+
+await Bun.build({
+  entrypoints: [publicTypes],
   format: 'esm',
   naming: '[dir]/[name].js',
   outdir: outPublicTypes,
