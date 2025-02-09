@@ -42,16 +42,10 @@
       "require": "./dist/base/index.cjs",
       "default": "./dist/base/index.js"
     },
-    "./css/*": "./dist/css/*",
-    "./utils": {
-      "types": "./dist/utils/index.d.ts",
-      "import": "./dist/utils/index.js",
-      "require": "./dist/utils/index.cjs",
-      "default": "./dist/utils/index.js"
-    }
+    "./css/*": "./dist/css/*"
   },
   "files": [
-    "dist/*"
+    "dist"
   ],
   "keywords": [
     "colors",
