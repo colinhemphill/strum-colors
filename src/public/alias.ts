@@ -8,6 +8,7 @@ function aliasColors(aliasColorsArguments: AliasColorsArguments): Config {
 
   for (const [alias, colorName] of Object.entries(aliasColorsArguments)) {
     config[alias] = {
+      0: `var(--color-${colorName}-0)`,
       1: `var(--color-${colorName}-1)`,
       2: `var(--color-${colorName}-2)`,
       3: `var(--color-${colorName}-3)`,
